@@ -10,7 +10,7 @@
 
 'use strict';
 
-let Delaunator   = require('delaunator');        // ISC licensed
+let { default: Delaunator }   = require('delaunator');        // ISC licensed
 let TriangleMesh = require('./');
 
 function s_next_s(s) { return (s % 3 == 2) ? s-2 : s+1; }
